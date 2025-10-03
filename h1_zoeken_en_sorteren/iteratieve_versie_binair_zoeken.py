@@ -1,4 +1,4 @@
-def zoek_binair(rij, item):
+def zoek_binair(item, rij):
   links = 0
   rechts = len(rij) - 1
   while links != rechts:
